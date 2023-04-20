@@ -1,23 +1,43 @@
-body {
-  background: #cccccc;
-}
 #banner {
   width: 100%;
 }
-h1 {
+.principal {
+  background: #cccccc;
+  padding: 30px;
+}
+.titulo-principal {
+  padding-left: 20px;
+}
+.titulo-centralizado {
   text-align: center;
-  padding: 20px;
 }
 p {
   text-align: center;
   background: #cccccc;
   color: blue;
 }
-
+/* para ID usasse Quadrado => # */
 #missao {
   font-size: 20px;
 }
 
 em strong {
   color: #ff0000;
+}
+/* para classe usasse ponto */
+.items {
+  font-style: italic;
+}
+.beneficios {
+  background: #ffffff;
+  padding: 20px;
+}
+ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+.imagemBeneficios {
+  width: 50%;
 }
